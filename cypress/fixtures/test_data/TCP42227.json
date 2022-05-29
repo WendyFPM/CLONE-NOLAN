@@ -1,0 +1,64 @@
+{
+  "name": "TCP4-2227",
+  "screens": [
+    {
+    "name": "TCP4-2227-Conversational-Screen",
+    "description": "Testing the screens",
+    "type": "Conversational",
+    "controlls": [
+      {
+        "name": "Line Input",
+        "varaible_name": null
+
+      },
+      {
+        "name": "Select List",
+        "varaible_name": "selectlistmultiple",
+        "datasource": {
+          "data_source": "Data Connector",
+          "options_varaible": "response.data",
+          "allow_multiple_selections": true,
+          "return_value": "Object",
+          "content": "name",
+          "data_connector": "2227-groups",
+          "endPoint": "list",
+          "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiMDBiNGUxY2Y5NTJkNzlkNzkyMzhjYzkxZWI3Mzg4YzQwMTc4YjIxNjUyMzE4ODhiZDU4NWI4NWI0MTc4ZTZkYWNjZTY3MmJkNTA1YWFmODEiLCJpYXQiOjE2NTI3NjQ3ODksIm5iZiI6MTY1Mjc2NDc4OSwiZXhwIjoxNjg0MzAwNzg5LCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.8y-jG7w9lah28FZR_IWal3ioIVNf7a-QaBTjbasgPp6xbOgKgk2I0tu0G0wzey7uuKU_MoPFhkYiJUDzLuAISukCLua9mQgcr8GOQDcGIrindswpmXOql3g2NBWAxs1p39kgkg8USw_gHgqFNb8fgN4QO4piS_Rj2FEODtsZaEYMH8LPEAhrYWqStv0krxe9kXp6aYYnFXodeY2VVqxKYAj00xBK_vjaiuU5x6STaxR24D5kPgmd0LT3f5GKBoYgiSAlsn79ABNcRD7scLSWkfXSaVocwooio2WTzdy4Iy2uxYP3wEaqxCuBF6Ahq8NZzBR9JBf7-FlcNuzKXUD_xRdjPNb4BUrN4exFtOy95QPZuAXs0cDQpxtsGHck8cRQNvGmLzmRLCEqoFw5n4VI4L2b9I93v_OKmyB_C5A8qmY1yAIlX7VtOJFvvatSU2jAr86EcpzvyudcR1hLlAIniILmdSIGWEpb-Lxbz1jBltl_drOpM5DrNKBmJWTTXhtadZMZcAM6Z3P0T3IUVrSZvIDB0qpGXlNvnYcx0ysllA9rjzMlZjpQD4JM_VbDSgwfv8NVAx1acepDij-jVFEYGGbZZ5HpFR8EXpF0KWQbR15KKBQQQjz4BglkJ3r4i67yral7bPpyKpoaWanN44zs2KzilC5tO1hToToACYple5g"
+        }
+      },
+      {
+        "name": "Select List",
+        "varaible_name": "selectlist",
+        "datasource": {
+          "data_source": "Data Connector",
+          "options_varaible": "response.data",
+          "allow_multiple_selections": false,
+          "return_value": "Object",
+          "content": "name",
+          "data_connector": "2227-groups",
+          "endPoint": "list",
+          "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiODQxNjVhNjg2MTBjZDE2NmU5NDRhYjA3YzRjNjRlYTVlYzhkNWZmMmQxYzgzZjQxMDczOThjYWVkODZjMGQ0YWZhNTE1MWI0ODAwMTgwMjkiLCJpYXQiOjE2NTIzNTg2MDAsIm5iZiI6MTY1MjM1ODYwMCwiZXhwIjoxNjgzODk0NjAwLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.OQLZC4sC5zPj5ke1KOdEFYicuBEmOwqYfWa9_wOVO6wmO45wsExElTMg_6VlmRh8lr0AkvHCaTv3O50CDZuwb-k4L1pWhoRW6-gMFa-8TzlHSDyghWJpFqob53I1L_Nbp0aALoajt9GMNxNtRqN_LYeNqeCcOmBzaWoz2o9TP55X6g8pbD0SUMuEgEvevv9cOayffGYS0mgTnnNEoA5WXwGb2ymvQ53rP9Sv4lXUFKh0ZWvdcifvqrUlw67H2DLy4PsGBIvIl9cnJMTXzy6-tfK5zfLZaBbM6xvROq1RZXOTafyt243MqSfYWpc6ikMlFJ_hdGHKfQNONsT0WDtxUycUxxOJsicjea6LE8zhpaEjGq7O3ZjSrkFht2niVsKSk0SMF3tpG1mzrwtUj218d-vp9tyq4N6nJqTuipDe86YuijelPelO94F3rjvOEZjHTfqaMQ2tdyDLrT8PH5ll16DPAB27PbM5yfm9FXOWBSzc2bHSc7eYderfwIpZsonJDTLtuDbzToa1BH--dP0IdEXD_kjsr8iyYEKrFdbLMl-lXrSBQlTdVigxGLbP1t2KiK4bo4cFfJG81xCEqEE7hl295B5cSGyxnxyOXJUDkPWjOzDzfABhzgMsxjg5-XF-CG7-yknyUKSijFkmRatro-HENeDSxleZHPPlD-3M40w"
+        }
+      },
+      {
+        "name": "Rich Text",
+        "content": "<p>{{selectlist.status}}</p>"
+      }
+    ]
+
+  },
+  {
+    "name": "TCP4-2227-display-Screen",
+    "description": "Testing the screens",
+    "type": "Display",
+    "controlls": [
+      {
+        "name": "Rich Text",
+        "content": "<p>{{selectlist.id}}</p><p>{{selectlist.name}}</p><p>{{selectlist.description}}</p><p>{{selectlist.status}}</p><p>{{selectlist.selected}}</p>"
+      }
+    ]
+
+  }
+]
+
+
+}

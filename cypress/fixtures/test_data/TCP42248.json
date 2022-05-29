@@ -1,0 +1,100 @@
+{
+  "name": "TCP42248",
+  "screens": [
+    {
+      "name": "TCP4-2248-Create-Screen",
+      "description": "Testing the screens",
+      "type": "Form",
+      "controlls": [{
+          "name": "Date Picker",
+          "varaible_name": "releaseDate",
+          "label_name": "Release Date",
+          "data_type": "Date"
+        },
+        {
+          "name": "Line Input",
+          "varaible_name": "title",
+          "label_name": "Title"
+        },
+        {
+          "name": "Line Input",
+          "varaible_name": "author",
+          "label_name": "Author"
+        },
+        {
+          "name": "Line Input",
+          "varaible_name": "price",
+          "label_name": "Price"
+        },
+        {
+          "name": "Submit Button",
+          "varaible_name": "submit"
+        }
+      ]
+    },
+    {
+      "name": "TCP4-2248-View-Screen",
+      "description": "Testing the screens",
+      "type": "Display",
+      "controlls": [{
+          "name": "Rich Text",
+          "content": "<p>{{title}}</p>"
+        },
+        {
+          "name": "Rich Text",
+          "content": "<p>{{author}}</p>"
+        },
+        {
+          "name": "Rich Text",
+          "content": "<p>{{releaseDate}}</p>"
+        },
+        {
+          "name": "Rich Text",
+          "content": "<p>{{price}}</p>"
+        }
+      ]
+    },
+    {
+      "name": "TCP4-2248-Form-Screen1",
+      "description": "Testing the screens",
+      "type": "Form",
+      "controlls": [{
+          "name": "Select List",
+          "varaible_name": "selectlist",
+          "datasource": {
+            "data_source": "Request Data",
+            "options_varaible": "response[1]",
+            "option_label_shown": "region.value",
+            "variable_data_property": "region.value"
+          }
+        },
+        {
+          "name": "Submit Button",
+          "varaible_name": null
+        }
+      ]
+    },
+    {
+      "name": "TCP4-2248-Form-Screen2",
+      "description": "Testing the screens",
+      "type": "Form",
+      "controlls": [{
+          "name": "Select List",
+          "varaible_name": "selectlist",
+          "datasource": {
+            "data_source": "Data Connector",
+            "options_varaible": "response.data",
+            "return_value": "Object",
+            "content": "data.title",
+            "data_connector": "2248-collection",
+            "endPoint": "ListAll"
+          }
+        },
+        {
+          "name": "Submit Button",
+          "varaible_name": "submit"
+        }
+      ]
+    }
+  ]
+}

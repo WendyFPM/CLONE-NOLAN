@@ -1,0 +1,58 @@
+{
+    "name":"TCP42311",
+    "screens":[
+        {
+            "name":"TCP4-2311-FormScreen",
+            "description":"Testing the screens",
+            "type":"Form",
+            "controlls":[
+                {
+                    "name":"Line Input",
+                    "label_name":"form_input_1"
+                },
+                {
+                    "name":"File Upload",
+                    "label_name":"file_upload_1"
+                },
+                {
+                    "name":"Line Input",
+                    "label_name":"form_input_2"
+                },
+                {
+                    "name":"File Upload",
+                    "label_name":"file_upload_2"
+                },
+                {
+                    "name":"Submit Button"
+                }
+            ]
+        },
+        {
+            "name":"TCP4-2311-DisplayScreen",
+            "description":"Testing the screens",
+            "type":"Display",
+            "controlls":[
+                {
+                    "name":"Rich Text",
+                    "content":"<p>{{form_input_1}}</p>"
+                },
+                {
+                    "name":"File Preview",
+                    "varaible_name":"file_upload_1"
+                },
+                {
+                    "name":"Rich Text",
+                    "content":"<p>{{form_input_2}}</p>"
+                },
+                {
+                    "name":"File Preview",
+                    "varaible_name":"file_upload_2"
+                },
+                {
+                    "name":"Rich Text",
+                    "content":"<p><a draggable='false' href='https://qualitlabs-qa.processmaker.net/'>Go to about Processmaker</a></p>"
+                }
+            ]
+        }
+    ]
+}

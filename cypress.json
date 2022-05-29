@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://qualitlabs-qa.processmaker.net/",
+    "env": {
+        "username": "admin",
+        "password": "admin"
+    },
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 30000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1200,
+    "testFiles": "**/*.spec.js",
+    "projectId": "53fcaa",
+    "watchForFileChanges": false,
+    "numTestsKeptInMemory": 0
+}
